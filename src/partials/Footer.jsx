@@ -3,13 +3,13 @@
 export const Footer = () => {
   return (
     <>
-      <footer className="bg-lime-800 shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-800">
+      <footer className="bg-lime-800  shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-800">
         <p className="mb-4 font-bold text-sm text-center text-lime-100 dark:text-gray-400 sm:mb-0">
           &copy; 2023{" "}
-          <a href="https://flowbite.com/" className="hover:underline" target="_blank" rel="noopener noreferrer">
+          <a href="#" className="hover:underline">
             Inwork.com
           </a>
-          <span> | Made with ♥ By Kornelius Rhesa (Sanber ReactJS Batch 48).</span>
+          <span> | Made with ♥ By Kornelius Rhesa</span>
         </p>
         <div className="flex justify-center items-center space-x-4">
           {/* Instagram */}

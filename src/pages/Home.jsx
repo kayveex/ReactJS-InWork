@@ -14,7 +14,6 @@ export const Home = () => {
       <Jumbotron />
       <Partner />
       <NewsLetter />
-      {/* Footer */}
       <Footer />
     </>
   );

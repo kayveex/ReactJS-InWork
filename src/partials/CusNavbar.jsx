@@ -20,7 +20,7 @@ export const CusNavbar = () => {
               href="#"
               className="text-white font-black bg-lime-700 hover:bg-lime-800 focus:ring-4 focus:ring-lime-300 rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-lime-600 dark:hover:bg-lime-700 focus:outline-none dark:focus:ring-lime-800"
             >
-              Dashboard
+              Account
             </a>
             <button
               data-collapse-toggle="mobile-menu-2"
@@ -45,13 +45,13 @@ export const CusNavbar = () => {
           <div className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
             <ul className=" font-semibold flex flex-col mt-4 lg:flex-row lg:space-x-8 lg:mt-0">
               <li>
-                <a href="#" className="block py-2 pr-4 pl-3 text-lime-700 lg:hover:text-lime-900 rounded  lg:bg-transparent   lg:p-0 dark:text-white" aria-current="page">
+                <a href="/" className="block py-2 pr-4 pl-3 text-lime-700 lg:hover:text-lime-900 rounded  lg:bg-transparent   lg:p-0 dark:text-white" aria-current="page">
                   Home
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/job-list"
                   className="block py-2 pr-4 pl-3 text-lime-700 lg:hover:text-lime-900 rounded border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0  lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Job List
@@ -59,7 +59,7 @@ export const CusNavbar = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/about-us"
                   className="block py-2 pr-4 pl-3 text-lime-700 lg:hover:text-lime-900 rounded  border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0  lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   About Us
